@@ -28,7 +28,7 @@ Avg response time: 463 ms.
 Load average: 4
 Memory Usage: 350mb.
 
-![1x dyno max 200 users](/assets/archive/images/2014/Jul/1x_dyno_200_users.jpg)
+![1x dyno max 200 users]({% asset_path archive/images/2014/Jul/1x_dyno_200_users.jpg %})
 
 **2nd test:** <font color="#BD2023">(failed)</font> 1-250 concurrent users
 Unicorn Workers: 8
@@ -37,7 +37,7 @@ Avg response time: 543 ms.
 Load average: Peaked at 7
 Memory Usage: 350mb
 
-![1x dyno max 200 users](/assets/archive/images/2014/Jul/onex_250.jpg)
+![1x dyno max 200 users]({% asset_path archive/images/2014/Jul/onex_250.jpg %})
 
 ### 1X Dyno Learnings
 This test was to set a baseline for comparing the other dyno sizes.
@@ -53,7 +53,7 @@ Avg response time: 218 ms.
 Load average: Peaked at 8
 Memory Usage: 600mb.
 
-![2x dyno max 250 users](/content/images/2014/Jul/2x_250.png)
+![2x dyno max 250 users]({% asset_path archive/images/2014/Jul/2x_250.png %})
 
 **2nd test:** <font color="#BD2023">(failed)</font> 1-350 concurrent users
 Unicorn Workers: 18
@@ -62,7 +62,7 @@ Avg response time: 506 ms.
 Load average: Peaked at 10
 Memory Usage: 720mb
 
-![2x dyno max 350 users](/assets/archive/images/2014/Jul/2x_dyno_350_users.jpg)
+![2x dyno max 350 users]({% asset_path archive/images/2014/Jul/2x_dyno_350_users.jpg %})
 
 ### 2X Dyno Learnings
 I was most impressed with the difference between the 1x and 2x dyno. There's a very sizable difference in performance between the two. The 1X dyno started to time out at a max of 200 concurrent users. The 2x dyno easily handled 250 users with a response time around twice as fast as the 1x dyno.
@@ -77,7 +77,7 @@ Avg response time: 162 ms.
 Load average: Peakeed at 1.3
 Memory Usage: 700mb.
 
-![PX dyno max 350 users](/assets/archive/images/2014/Jul/px_dyno_350.jpg)
+![PX dyno max 350 users]({% asset_path archive/images/2014/Jul/px_dyno_350.jpg %})
 
 **2nd test:** <font color="#238C44">(passed)</font> 1-450 concurrent users
 Unicorn Workers: 18
@@ -86,7 +86,7 @@ Avg response time: 173 ms.
 Load average: Peaked at 1.23
 Memory Usage: 720mb
 
-![PX dyno max 450 users](/assets/archive/images/2014/Jul/px_dyno_450.jpg)
+![PX dyno max 450 users]({% asset_path archive/images/2014/Jul/px_dyno_450.jpg %})
 
 **3rd test:** <font color="#238C44">(passed)</font> 100-1000 concurrent users
 Unicorn Workers: 18
@@ -95,7 +95,7 @@ Avg response time: 268 ms.
 Load average: Peaked at 3.17
 Memory Usage: 760mb
 
-![PX dyno max 450 users](/assets/archive/images/2014/Jul/px_dyno_1000.jpg)
+![PX dyno max 450 users]({% asset_path archive/images/2014/Jul/px_dyno_1000.jpg %})
 
 ### Conclusion
 The PX dyno is gigantic for a web app. I barely used the memory available on it and the load stayed low even on the 1,000 user test. I probably should have done another test with a much larger # of unicorn workers running. I think we'd see lower response times and could push it much further. But after the 1,000 user test, I had run out of Blitz credits and didn't want to spend more money on this little experiment.

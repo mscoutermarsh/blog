@@ -9,7 +9,7 @@ Hopefully this helps others in determining if/when they need more RAM for memcac
 
 This is from New Relic's memcachier plugin. Most memcached providers have some dashboard similar to this. The numbers you're interested in are the **hit ratio %** and **number of evictions**.
 
-![](/assets/archive/images/2015/Mar/memcached.png)
+![]({% asset_path archive/images/2015/Mar/memcached.png %})
 
 **hit ratio %**: Percentage of time your application requests data from memcached & finds it.
 

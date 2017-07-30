@@ -29,7 +29,7 @@ The biggest barrier for me using Vim full time was quickly navigating a project.
 <h3><a href="https://github.com/kien/ctrlp.vim" target="_blank" rel="nofollow">CTRLP</a></h3>
 This does the same thing as Sublime’s Ctrl P. Fuzzy search by file name. Must have.
 
-![vim ctrl p](/assets/archive/images/2014/Oct/ctrlp.jpg)
+![vim ctrl p]({% asset_path archive/images/2014/Oct/ctrlp.jpg %})
 <h3><a href="https://github.com/scrooloose/nerdtree" target="_blank" rel="nofollow">NERDTree</a></h3>
 
 Gives you a sidebar that you can quickly navigate files with. I’ve mapped NERDTree to &lt;F10&gt; so I can quickly open and close it. I've also mapped &lt;F9&gt; to bring me to my currently open file in NERDTree (super useful).
@@ -42,11 +42,11 @@ map <F10> :NERDTreeToggle<CR>
 map <F9> :NERDTreeFind<CR>
 ```
 
-![nerdtree](/assets/archive/images/2014/Oct/nerdtree.jpg)
+![nerdtree]({% asset_path archive/images/2014/Oct/nerdtree.jpg %})
 ### <a href="https://github.com/rking/ag.vim" target="_blank" rel="nofollow">Ag for Vim</a> (Project wide search)
 Super fast search. Also speeds up indexing when using CtrlP.
 
-![ag](/assets/archive/images/2014/Oct/ag.jpg)
+![ag](/{% asset_path archive/images/2014/Oct/ag.jpg)
 <h3></h3>
 <h3>Copy &amp; Paste:</h3>
 I struggled for a while with copying and pasting code from outside Vim. It’s just a little different than other text editors and this makes the transition a little rough.
