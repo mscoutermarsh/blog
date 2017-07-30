@@ -3,4 +3,4 @@ rvm:
   - 2.4
 install: bundle install
 script: JEYKLL_ENV=production jekyll build
-after_success: "[[ $TRAVIS_BRANCH = 'master' ]] && bundle exec s3_website push"
+after_success: "[[ $TRAVIS_BRANCH = 'master' ]] && JEKYLL_ENV=production bundle exec s3_website push"
