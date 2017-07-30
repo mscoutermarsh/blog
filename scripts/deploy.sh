@@ -1,3 +1,3 @@
 #!/bin/bash
 
-s3_website push
+bundle exec s3_website push
