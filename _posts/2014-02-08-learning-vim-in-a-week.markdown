@@ -46,7 +46,7 @@ map <F9> :NERDTreeFind<CR>
 ### <a href="https://github.com/rking/ag.vim" target="_blank" rel="nofollow">Ag for Vim</a> (Project wide search)
 Super fast search. Also speeds up indexing when using CtrlP.
 
-![ag](/{% asset_path archive/images/2014/Oct/ag.jpg)
+![ag]({% asset_path archive/images/2014/Oct/ag.jpg %})
 <h3></h3>
 <h3>Copy &amp; Paste:</h3>
 I struggled for a while with copying and pasting code from outside Vim. It’s just a little different than other text editors and this makes the transition a little rough.
