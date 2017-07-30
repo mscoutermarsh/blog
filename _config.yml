@@ -29,6 +29,13 @@ markdown: kramdown
 plugins-dir:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 25
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
