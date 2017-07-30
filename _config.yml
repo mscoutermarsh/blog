@@ -30,6 +30,7 @@ plugins-dir:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate-v2
+  - font_awesome
 
 pagination:
   enabled: true

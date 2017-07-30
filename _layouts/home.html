@@ -17,11 +17,23 @@ pagination:
   {% endif %}
     <li>
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <span class="post-meta {{ post.external_site }}">
+        {{ post.date | date: date_format }}
+        {% if post.external_site == 'medium' %}
+          - {% icon fa-medium %}
+        {% endif %}
+        {% if post.external_site == 'quora' %}
+          - {% icon fa-quora %}
+        {% endif %}
+      </span>
 
       <h2>
         {% if post.external_url %}
-          <a class="post-link {{ post.external_site }}" href="{{ post.external_url }}" target="_blank">{{ post.title | escape }}</a>
+          <a class="post-link {{ post.external_site }}" href="{{ post.external_url }}" target="_blank">
+
+            {{ post.title | escape }}
+          </a>
+
         {% else %}
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         {% endif %}

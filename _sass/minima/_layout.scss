@@ -195,6 +195,13 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+
+  i {
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
 
 .post-link {
