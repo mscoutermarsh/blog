@@ -32,6 +32,9 @@ plugins-dir:
   - jekyll-paginate-v2
   - font_awesome
 
+sass:
+  style: compressed
+
 pagination:
   enabled: true
   per_page: 25
