@@ -15,9 +15,9 @@ cloudfront_distribution_id: E1BGJ3NJE0MICH
 error_document: error.html
 
 max_age:
-  "assets/*": 6000
-  "fonts/*": 12000
-  "*": 300
+  "assets/*": 604800
+  "fonts/*": 604800
+  "*": 600
 
 gzip:
   - .html
