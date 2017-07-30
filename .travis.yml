@@ -3,4 +3,8 @@ rvm:
   - 2.4
 install: bundle install
 script: jekyll build
-after_success: s3_website push
+deploy:
+  - provider: script
+    script: scripts/deploy.sh
+    on:
+      branch: master
