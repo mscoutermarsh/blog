@@ -11,7 +11,12 @@ group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-compose'
+  gem 'jekyll-assets'
 end
+
+gem 'uglifier'
+gem 'sass'
+gem 'autoprefixer-rails'
 
 group :test, :development do
   gem 's3_website'

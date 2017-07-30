@@ -13,7 +13,7 @@ All Heroku apps already support SSL by piggybacking on Heroku's SSL certificate 
 
 Instead of using Heroku's SSL endpoint, we can alternatively use [CloudFlare](https://cloudflare.com). CloudFlare is a CDN (content delivery network). They cache and serve your static assets, making your site faster and reducing load on your servers. With the Pro account ($20), they will also handle SSL termination for you.
 
-![Cloudflare & Heroku](/assets/archive/images/2014/Sep/cloudflare_ssl-2x.jpg)
+![Cloudflare & Heroku]({% asset_path archive/images/2014/Sep/cloudflare_ssl-2x.jpg %})
 
 Cloudflare Pro is $20 a month. The same cost as the Heroku add-on, but it's easier to setup and you also get all of their CDN/security features (you should be using a CDN anyway).
 
@@ -25,7 +25,7 @@ Cloudflare Pro is $20 a month. The same cost as the Heroku add-on, but it's easi
 
 3. Finally, in your CloudFlare settings. Enable "Full SSL" for the domain.
 
-![Full SSL](/assets/archive/images/2014/Sep/fullSSL.jpg)
+![Full SSL]({% asset_path archive/images/2014/Sep/fullSSL.jpg %})
 
 ### Using Rails?
 The next thing to do is force all http requests in your application to go redirect to https.

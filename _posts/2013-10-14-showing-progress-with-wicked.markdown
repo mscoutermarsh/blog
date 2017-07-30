@@ -3,7 +3,7 @@ layout: post
 title: Showing progress with Wicked
 date: 2013-10-14 12:03:34.000000000 -07:00
 ---
-![wicked](/assets/archive/images/2014/Jul/Scrumlogs-2013-10-14-20-23-30.jpg)
+![wicked]({% asset_path archive/images/2014/Jul/Scrumlogs-2013-10-14-20-23-30.jpg %})
 
 <a href="https://github.com/schneems/wicked">Wicked</a> is a gem that makes creating a step-by-step wizard really simple.
 

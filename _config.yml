@@ -40,6 +40,16 @@ plugins-dir:
 sass:
   style: compressed
 
+# Jekyll Assets
+# # - https://jekyll.github.io/jekyll-assets/
+assets:
+  sources:
+    - _assets/css
+    - _assets/js
+    - _assets/images
+  autoprefixer:
+    browsers: ["last 2 versions","> 5%","IE 9"]
+
 pagination:
   enabled: true
   per_page: 25
