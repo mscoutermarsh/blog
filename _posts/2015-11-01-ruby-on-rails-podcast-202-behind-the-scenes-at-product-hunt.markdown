@@ -7,11 +7,11 @@ I was recently on the [Ruby on Rails podcast](http://5by5.tv/rubyonrails) to go 
 
 [Ruby on Rails Podcast #202: Behind the scenes at Product Hunt](https://www.producthunt.com/podcasts/ruby-on-rails-podcast-202-behind-the-scenes-at-product-hunt)
 
-We covered a lot, here some **highlights:**  
-- The launch of Product Hunt Podcasts  
-- How I got my job at Product Hunt (hint... snapchat)  
-- Moving Boston -> San Francisco  
-- Working Remote vs in office.  
-- Product Hunt's transition to using React.js  
-- Learning/Teaching API-first  
-- AND! Running a high traffic Rails app on Heroku 😎
+We covered a lot, here some **highlights:**
+- The launch of Product Hunt Podcasts
+- How I got my job at Product Hunt (hint... snapchat)
+- Moving Boston -> San Francisco
+- Working Remote vs in office.
+- Product Hunt's transition to using React.js
+- Learning/Teaching API-first
+- AND! Running a high traffic Rails app on Heroku
