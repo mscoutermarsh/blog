@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: About
 permalink: /about/
 ---
 Hey! I'm Mike. I'm a software engineer in San Francisco, CA.
