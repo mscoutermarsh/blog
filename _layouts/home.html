@@ -16,9 +16,9 @@ layout: default
 
         <h2>
           {% if post.external_url %}
-            <a class="post-link {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title | escape }}</a>
+            <a class="post-link {{ post.external_site }}" href="{{ post.external_url }}" target="_blank">{{ post.title | escape }}</a>
           {% else %}
-            <a class="post-link" target"_blank" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           {% endif %}
         </h2>
       </li>
