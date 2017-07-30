@@ -16,6 +16,7 @@ error_document: error.html
 
 max_age:
   "assets/*": 6000
+  "fonts/*": 12000
   "*": 300
 
 gzip:
