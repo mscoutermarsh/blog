@@ -24,6 +24,11 @@ twitter_username: mscccc
 github_username:  mscoutermarsh
 permalink: /:title/
 
+google_analytics: UA-32961413-1
+
+disqus:
+  shortname: mikecoutermarsh
+
 # Build settings
 markdown: kramdown
 plugins-dir:
