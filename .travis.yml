@@ -3,9 +3,4 @@ rvm:
   - 2.4
 install: bundle install
 script: jekyll build
-deploy:
-  - provider: script
-    script: scripts/deploy.sh
-    skip_cleanup: true
-    on:
-      branch: master
+after_success: "[[ $TRAVIS_BRANCH = 'master' ]] && bundle exec s3_website push"
