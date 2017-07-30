@@ -38,6 +38,7 @@ plugins-dir:
   - font_awesome
 
 sass:
+  sass_dir: _assets/css/
   style: compressed
 
 # Jekyll Assets
