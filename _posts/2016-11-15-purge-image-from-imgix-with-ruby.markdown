@@ -7,7 +7,7 @@ Here's how we purge images from imgix's cache at Product Hunt with Ruby.
 
 If you're googling around for a solution, hopefully this code helps you out.
 
-Imgix docs: https://docs.imgix.com/setup/purging-images
+Imgix docs: [https://docs.imgix.com/setup/purging-images](https://docs.imgix.com/setup/purging-images)
 
 ```ruby
 # usage: Set env variable IMGIX_API_KEY to your api key
