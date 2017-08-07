@@ -20,7 +20,7 @@ SELECT COUNT(*) FROM table_name WHERE (options @> '{"favorite_color":"blue"}');
 If you're doing this in Rails, here's an example with ActiveRecord.
 
 ```ruby
-YourModel.where('options @> ?', { favorite_color: 'blue' }.to_json) }
+YourModel.where('options @> ?', { favorite_color: 'blue' }.to_json)
 ```
 
 To learn more, take a look at this post: [What can you do with PostgreSQL and JSON?](http://clarkdave.net/2013/06/what-can-you-do-with-postgresql-and-json/)
