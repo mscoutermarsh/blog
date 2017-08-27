@@ -3,20 +3,20 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hey! I'm Mike. I'm a software engineer in San Francisco, CA.
+Hey! I'm Mike. I'm a software engineer living in San Francisco, CA.
 
-I build web apps, usually in Ruby. When I'm not doing that, I'm probably watching hockey or in a gym.
+I love building web apps, usually with Ruby.
 
-**Work:**
-Software Engineer @ [Product Hunt](https://www.producthunt.com).
+I work @ [Product Hunt](https://www.producthunt.com).
 
-Previously: [Gazelle.com](http://www.gazelle.com), [Sikorsky Aircraft](http://sikorsky.com), [Pratt & Whitney](http://pw.utc.com).
+I'm on Twitter here [@mscccc](http://twitter.com/mscccc). And here's my [GitHub](http://github.com/mscoutermarsh).
 
-You should probably follow me on twitter [@mscccc](http://twitter.com/mscccc).
+I love helping people who are learning to code. I currently mentor the agile
+group project course for [The Firehose Project](https://thefirehoseproject.com).
 
-Or connect with me on one of these: [Github](http://github.com/mscoutermarsh), [LinkedIn](http://www.linkedin.com/in/coutermarsh/).
+If you're learning to code or trying to get into tech, I'm always happy to
+answer any questions over email!
 
-Email me. I love to help!
 [coutermarsh.mike@gmail.com](mailto:coutermarsh.mike@gmail.com)
 
 ---
