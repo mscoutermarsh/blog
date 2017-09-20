@@ -65,4 +65,4 @@ Now if you’re wondering things like, “but my user has a resume on their prof
 
 In cases like that, it makes sense to dedicate a model to just that object. Then you'd have a `Resume` object.
 
-It keeps things very explicit and when other people are working with your code they will know where you look.
+It keeps things very explicit and when other people are working with your code they will know where to look when making changes.
