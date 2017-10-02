@@ -33,6 +33,10 @@ plugins-dir:
   - jekyll-sitemap
   - jekyll-paginate-v2
   - font_awesome
+  - jemoji
+
+emoji:
+  src: "/assets/"
 
 sass:
   sass_dir: _assets/css/
@@ -45,6 +49,10 @@ assets:
     - _assets/css
     - _assets/js
     - _assets/images
+  autowrite: true
+  digest: false
+  assets:
+    - "*.png"
   autoprefixer:
     browsers: ["last 2 versions","> 5%","IE 9"]
 
