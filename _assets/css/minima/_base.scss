@@ -31,6 +31,12 @@ body {
     width:9em;
     height:9em;
     border: none;
+    border-radius: 50%;
+  }
+
+  a {
+    background-color: white;
+    border: solid 3px white;
   }
 }
 
