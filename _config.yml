@@ -16,7 +16,7 @@
 title: Mike Coutermarsh
 email: coutermarsh.mike@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is where I write about code and building software.
+  This is where I write about code and building software. :v:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mikecoutermarsh.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mscccc
