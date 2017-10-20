@@ -12,7 +12,7 @@ cloudfront_distribution_id: E1BGJ3NJE0MICH
 # site: path-to-your-website
 
 # index_document: index.html
-error_document: error.html
+error_document: 404.html
 
 max_age:
   "assets/*": 604800
