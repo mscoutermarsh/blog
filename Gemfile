@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2'
   gem 'jekyll-compose'
   gem 'jekyll-assets'
+  gem 'jekyll-twitter-plugin'
   gem 'jemoji'
 end
 

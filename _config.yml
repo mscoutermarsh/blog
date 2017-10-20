@@ -33,6 +33,7 @@ plugins-dir:
   - jekyll-sitemap
   - jekyll-paginate-v2
   - font_awesome
+  - jekyll-twitter-plugin
   - jemoji
 
 emoji:
