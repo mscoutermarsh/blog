@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Working remote - asking a quick question via Slack
+title: Quick tip for sending better Slack DMs
 ---
 
-Quick tip for improving the effectiveness of your communication via Slack.
+Quickly improve the effectiveness of your communication via Slack by making your
+messages actionable.
 
 ### Bad
 ```
