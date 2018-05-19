@@ -7,7 +7,7 @@ Hey! I'm Mike. I'm a software engineer living in San Francisco, CA.
 
 I love building web apps, usually with Ruby.
 
-I work @ [GitHub](https://github.com/mscoutermarsh). 
+I work @ [GitHub](https://github.com/mscoutermarsh) on [Marketplace](https://github.com/marketplace). 
 
 Before that, [Product Hunt](https://www.producthunt.com).
 
