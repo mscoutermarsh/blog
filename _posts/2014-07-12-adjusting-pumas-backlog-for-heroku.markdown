@@ -32,7 +32,7 @@ bind "tcp://0.0.0.0:#{port}?backlog=#{backlog}"
 
 ([View the full example here.](https://github.com/mscoutermarsh/puma_heroku_example/blob/master/config/puma.rb))
 
-Here is an example app that works on Heroku with the backlog config: [Example on Github](https://github.com/mscoutermarsh/puma_heroku_example).
+Here is an example app that works on Heroku with the backlog config: [Example on GitHub](https://github.com/mscoutermarsh/puma_heroku_example).
 
 **Note:** Make sure you're using a recent version of Puma for this to work. In this example I was using 2.8.2.
 

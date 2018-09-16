@@ -44,4 +44,4 @@ If you want to use Rainbow by default, add it to your `.rspec` file.
 --format Rainbow
 ```
 
-Enjoy! And [source is on Github](https://github.com/mscoutermarsh/rspec-rainbow).
+Enjoy! And [source is on GitHub](https://github.com/mscoutermarsh/rspec-rainbow).

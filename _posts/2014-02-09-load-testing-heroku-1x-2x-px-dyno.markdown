@@ -15,7 +15,7 @@ I wanted to see what kind of performance gains I could get from running the same
 **Disclaimer:** _Any load test is HIGHLY dependant on the specific application that's running. These results won't be the same for your app. The app I'm testing here is very simple and used for comparison between dyno sizes._
 
 ## The Test
-I setup a very basic Rails app running on Unicorn. [Source is on Github](https://github.com/mscoutermarsh/rails_load_test_heroku). I used [Blitz.io](http://blitz.io) to send traffic at it until it started failing and recorded the results. This app doesn't use any form of caching. With memcache added all of these test results could be significantly better.
+I setup a very basic Rails app running on Unicorn. [Source is on GitHub](https://github.com/mscoutermarsh/rails_load_test_heroku). I used [Blitz.io](http://blitz.io) to send traffic at it until it started failing and recorded the results. This app doesn't use any form of caching. With memcache added all of these test results could be significantly better.
 
 ## Unicorn
 I adjusted Unicorn concurrency based on the size of the Dyno. The more unicorn workers running = the more concurrent web requests a dyno can serve. Each unicorn worker takes up X mb in RAM. Best practice is to run your dynos at 50-70% memory usage. For the 1x and 2x dynos I adjust according to that scale. Since this app is really basic, the number of unicorn workers I was able to run was very high.

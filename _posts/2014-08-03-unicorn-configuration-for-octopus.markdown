@@ -37,5 +37,5 @@ end
 That's it! With those two minor changes, Unicorn will properly establish and close our additional DB connections.
 
 ##For more...
-* Check out the [Octopus gem on Github](https://github.com/tchandy/octopus).
+* Check out the [Octopus gem on GitHub](https://github.com/tchandy/octopus).
 * Also, take a look at [Unicorn](http://unicorn.bogomips.org/).
