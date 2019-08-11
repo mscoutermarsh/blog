@@ -9,9 +9,9 @@ gem 'jekyll'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
-  gem 'jekyll-paginate-v2'
+  gem 'jekyll-paginate-v2', '~> 2.0.0'
   gem 'jekyll-compose'
-  gem 'jekyll-assets'
+  gem 'jekyll-assets', '~> 2.3.2'
   gem 'jekyll-twitter-plugin'
   gem 'jemoji'
 end
