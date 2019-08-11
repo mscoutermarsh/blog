@@ -1,6 +1,9 @@
 name: Jekyll site CI
 
-on: [push]
+on: 
+  push:
+    branches:
+    - master
 
 jobs:
   build:
@@ -9,9 +12,29 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
+      env:
+        JEKYLL_ENV: production
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest \
         jekyll build --future
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      env:
+        S3_ID: ${{ secrets.S3_ID }}
+        S3_TOKEN: ${{ secrets.S3_ID }}
+        JEKYLL_ENV: production
+      with:
+        version: 2.6.x
+    - name: publish it
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        JEKYLL_ENV=production bundle exec s3_website push
+    
