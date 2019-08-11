@@ -6,22 +6,7 @@ on:
     - master
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@master
-      env:
-        JEKYLL_ENV: production
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest \
-        jekyll build --future
   publish:
-    needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Set up Ruby 2.6
@@ -32,9 +17,10 @@ jobs:
         JEKYLL_ENV: production
       with:
         version: 2.6.x
-    - name: publish it
+    - name: build it and publish it
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        JEKYLL_ENV=production bundle exec s3_website push
+        bundle exec jekyll build
+        bundle exec s3_website push
     
