@@ -20,7 +20,7 @@ Add the following config var to your Heroku app. And you'll be good to go.
 heroku config:set BUNDLE_RUBYGEMS__PKG__GITHUB__COM=YOUR_GITHUB_USERNAME:YOUR_GITHUB_TOKEN
 ```
 
-Grab your personal access token from: https://github.com/settings/tokens/new (you'll want READ PACKAGE permission).
+Grab your personal access token from: [github.com/settings/tokens/new](https://github.com/settings/tokens/new) (you'll want READ PACKAGE permission).
 
 ### That's it
 
