@@ -16,12 +16,14 @@ Copy the `Token` value and add it as a secret to your repository (Go to your rep
 Next, add this to your workflow.
 
 ```yml
+{% raw %}
 - name: Deploy to Heroku
   env:
     HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
     HEROKU_APP_NAME: "your-app-name-here"
   if: github.ref == 'refs/heads/master' && job.status == 'success'
   run: git push https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
+{% endraw %}
 ```
 
 This will only run for builds on the Master branch and if previous steps have worked properly.
@@ -29,6 +31,7 @@ This will only run for builds on the Master branch and if previous steps have wo
 Here's a full example for Rails app. This runs your tests, and if successful, deploys to Heroku.
 
 ```yml
+{% raw %}
 name: Ruby Test and Deploy
 
 on: [push]
@@ -45,7 +48,7 @@ jobs:
       with:
         ruby-version: 2.6.3
 
-    - uses: actions/cache@preview
+    - uses: actions/cache@v1
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
@@ -69,4 +72,5 @@ jobs:
         HEROKU_APP_NAME: "your-app-name-here"
       if: github.ref == 'refs/heads/master' && job.status == 'success'
       run: git push https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git origin/master:master
+{% endraw %}
 ```
