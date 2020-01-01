@@ -1,3 +1,5 @@
 # blog
 [![Build
-Status](https://travis-ci.org/mscoutermarsh/blog.svg?branch=master)](https://travis-ci.org/mscoutermarsh/blog)
+Status](https://github.com/mscoutermarsh/blog/workflows/Publish/badge.svg)](https://github.com/mscoutermarsh/blog/actions)
+
+mikecoutermarsh.com
