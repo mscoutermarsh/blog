@@ -25,6 +25,9 @@ pagination:
         {% if post.external_site == 'quora' %}
           - {% icon fa-quora %}
         {% endif %}
+        {% if post.external_site == 'dev' %}
+          - {% icon fa-dev %}
+        {% endif %}
       </span>
 
       <h2>
