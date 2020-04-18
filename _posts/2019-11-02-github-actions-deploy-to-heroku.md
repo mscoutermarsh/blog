@@ -30,6 +30,8 @@ This will only run for builds on the Master branch and if previous steps have wo
 
 Here's a full example for Rails app. This runs your tests, and if successful, deploys to Heroku.
 
+Important: notice how the `actions/checkout` step uses `fetch-depth: 0`. This checks out all commits in your repo, which is important when you need to push it to Heroku.
+
 ```yml
 {% raw %}
 name: Ruby Test and Deploy
@@ -42,11 +44,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Set up Ruby
-      uses: actions/setup-ruby@v1
+    - uses: actions/checkout@v2
       with:
-        ruby-version: 2.6.3
+        fetch-depth: 0
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6.5
 
     - uses: actions/cache@v1
       with:
