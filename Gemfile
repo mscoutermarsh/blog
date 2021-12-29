@@ -19,6 +19,7 @@ end
 gem 'uglifier'
 gem 'sass'
 gem 'autoprefixer-rails'
+gem 'kramdown-parser-gfm'
 
 group :test, :development do
   gem 's3_website'

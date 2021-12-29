@@ -3,19 +3,17 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hey! I'm Mike. I'm a software engineer living in San Francisco, CA.
+Hey! I'm Mike. I'm a software engineer living in ~~Boston, MA~~, ~~San Francisco, CA~~, Pennsylvania.
 
 I love building web apps, usually with Ruby.
 
-I work @ [GitHub](https://github.com/mscoutermarsh) on [Actions](https://github.com/features/actions). 
+I work @ [PlanetScale](https://planetscale.com).
 
-I grew up on the east coast and moved out to SF to follow the #startupDream. Turns out I really like it here, so I never went back.
+Before that, I was at [GitHub](https://github.com/mscoutermarsh) where I built [Actions](https://github.com/features/actions) and [Marketplace](https://github.com/marketplace). 
 
-Prior to GitHub I was one of the early employees at Product Hunt (a Rails app with a cat mascot). And prior prior to that I worked on Gazelle.com (another Rails app with a gazelle mascot).
+I was one of the early employees at [Product Hunt](https://producthunt.com) (a Rails app with a cat mascot). And prior prior to that I worked on Gazelle.com (another Rails app with a gazelle mascot).
 
 I'm on Twitter here [@mscccc](http://twitter.com/mscccc).
-
-I usually don't have time for coffee meetings. Sorry.
 
 If you're learning to code or trying to get into tech, I'm always happy to
 answer any questions over email. (short & specific emails are easiest for me)
