@@ -11,7 +11,7 @@ I work @ [PlanetScale](https://planetscale.com).
 
 Before that, I was at [GitHub](https://github.com/mscoutermarsh) where I built [Actions](https://github.com/features/actions) and [Marketplace](https://github.com/marketplace). 
 
-I was one of the early employees at [Product Hunt](https://producthunt.com) (a Rails app with a cat mascot). And prior prior to that I worked on Gazelle.com (another Rails app with a gazelle mascot).
+I was one of the early employees at [Product Hunt](https://producthunt.com) (sorry, I will not submit products for you).
 
 I'm on Twitter here [@mscccc](http://twitter.com/mscccc).
 
