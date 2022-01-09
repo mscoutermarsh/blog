@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Running queries in parallel with Rails 7 and load_async
-date: 2021-01-08 11:31 -0500
+date: 2022-01-08 11:31 -0500
 ---
 Rails 7 has added the [`load_async`](https://edgeapi.rubyonrails.org/classes/ActiveRecord/Relation.html#method-i-load_async) method to ActiveRecord. This looks like it could be a huge performance win for many Rails applications.
 
