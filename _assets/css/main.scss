@@ -1,1 +1,9 @@
 @import "minima";
+
+@media only screen and (max-width: 800px) {
+	.container {
+		display: flex;
+		flex-direction: column-reverse;
+		padding-top: 20px;
+	}
+}
