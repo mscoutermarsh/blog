@@ -18,29 +18,29 @@ Each table has thousands of records and the page renders a partial for each, so 
 Each query gets run once the view starts to render. The page stops rendering and waits for queries to run 4 different times.
 
 ```ruby
-  def index
-    @posts = Post.all
-    @users = User.all
-    @organizations = Organization.all
-    @tweets = Tweet.all
-  end
+def index
+  @posts = Post.all
+  @users = User.all
+  @organizations = Organization.all
+  @tweets = Tweet.all
+end
 ```
 
 **Result:**
 Page render time: 1095ms
 
 ```ruby
-  Post Load (104.2ms)  SELECT `posts`.* FROM `posts`
-  ↳ app/views/posts/index.html.erb:6
-  
-  Organization Load (197.2ms)  SELECT `organizations`.* FROM `organizations`
-  ↳ app/views/posts/index.html.erb:17
+Post Load (104.2ms)  SELECT `posts`.* FROM `posts`
+↳ app/views/posts/index.html.erb:6
 
-  Tweet Load (206.5ms)  SELECT `tweets`.* FROM `tweets`
-  ↳ app/views/posts/index.html.erb:28
+Organization Load (197.2ms)  SELECT `organizations`.* FROM `organizations`
+↳ app/views/posts/index.html.erb:17
 
-  User Load (101.0ms)  SELECT `users`.* FROM `users`
-  ↳ app/views/posts/index.html.erb:39
+Tweet Load (206.5ms)  SELECT `tweets`.* FROM `tweets`
+↳ app/views/posts/index.html.erb:28
+
+User Load (101.0ms)  SELECT `users`.* FROM `users`
+↳ app/views/posts/index.html.erb:39
 
 ```
 
@@ -48,29 +48,29 @@ Page render time: 1095ms
 With `load_async` added to the queries, we now give Rails the option to them all at once in separate threads. You'll see in the logs that 3 of the 4 queries are run async. The `posts` query gets rendered by the view before the query has time to run, so Rails runs it in the foreground since it's needed immediately.
 
 ```ruby
-  def index_async
-    @posts = Post.all.load_async
-    @users = User.all.load_async
-    @organizations = Organization.all.load_async
-    @tweets = Tweet.all.load_async
-  end
+def index_async
+  @posts = Post.all.load_async
+  @users = User.all.load_async
+  @organizations = Organization.all.load_async
+  @tweets = Tweet.all.load_async
+end
 ```
 
 **Result:**
 709ms
 
 ```ruby
-  Post Load (104.9ms)  SELECT `posts`.* FROM `posts`
-  ↳ app/views/posts/index_async.html.erb:6
+Post Load (104.9ms)  SELECT `posts`.* FROM `posts`
+↳ app/views/posts/index_async.html.erb:6
 
-  ASYNC Organization Load (169.6ms) (db time 193.4ms)  SELECT `organizations`.* FROM `organizations`
-  ↳ app/views/posts/index_async.html.erb:17
-  
-  ASYNC Tweet Load (24.4ms) (db time 278.0ms)  SELECT `tweets`.* FROM `tweets`
-  ↳ app/views/posts/index_async.html.erb:28
+ASYNC Organization Load (169.6ms) (db time 193.4ms)  SELECT `organizations`.* FROM `organizations`
+↳ app/views/posts/index_async.html.erb:17
 
-  ASYNC User Load (0.0ms) (db time 204.8ms)  SELECT `users`.* FROM `users`
-  ↳ app/views/posts/index_async.html.erb:39
+ASYNC Tweet Load (24.4ms) (db time 278.0ms)  SELECT `tweets`.* FROM `tweets`
+↳ app/views/posts/index_async.html.erb:28
+
+ASYNC User Load (0.0ms) (db time 204.8ms)  SELECT `users`.* FROM `users`
+↳ app/views/posts/index_async.html.erb:39
 ```
 
 ### 35% Faster
