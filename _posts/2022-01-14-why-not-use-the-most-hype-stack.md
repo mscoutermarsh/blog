@@ -16,7 +16,9 @@ I’ll take the $10k.
 
 ## Valuable engineers create business value with technology
 
-Read that ^ multiple times and internalize it. That’s the most straight forward path I’ve seen engineers become successful (measured by $$). Notice which is mentioned first here and prioritize. Business value > technology. When making a tech decision there are many different factors you need to weigh against. In the end, you need to do the ROI (return on investment) calculation in your head and pick which will result in the best outcome.
+Read that ^ multiple times and internalize it. That’s the most straight forward path I’ve seen engineers become successful (measured by $$). Notice which is mentioned first here and prioritize. **Business value > technology**. 
+
+When making a tech decision there are many different factors you need to weigh against. In the end, you need to do the ROI (return on investment) calculation in your head and pick which will result in the best outcome.
 
 It might sound like I’m saying "always pick whatever ships product the fastest". This is often true. But not always. Some times you’ll choose to go a little slower to gain something else, such as reliability or scale. Just make sure those things actually matter before making that choice.
 
