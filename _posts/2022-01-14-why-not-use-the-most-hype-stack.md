@@ -14,7 +14,7 @@ It’s hard out there. If you read twitter, hacker news, etc, there is always so
 
 I’ll take the $10k.
 
-## Valuable engineers create business value with technology
+### Valuable engineers create business value with technology
 
 Read that ^ multiple times and internalize it. That’s the most straight forward path I’ve seen engineers become successful (measured by $$). Notice which is mentioned first here and prioritize. **Business value > technology**. 
 
@@ -22,7 +22,7 @@ When making a tech decision there are many different factors you need to weigh a
 
 It might sound like I’m saying "always pick whatever ships product the fastest". This is often true. But not always. Some times you’ll choose to go a little slower to gain something else, such as reliability or scale. Just make sure those things actually matter before making that choice.
 
-## Be clear with your goals
+### Be clear with your goals
 
 If your goal is to build a SAAS product. Then make your tech choices in a way that prioritizes getting your product built quickly. When I have goals I like to phrase them like this “6 months from now, if I don’t have X done, how will I feel?”. That clarifies what you need to do now.
 
@@ -30,7 +30,7 @@ If your goal is to build a SAAS product. Then make your tech choices in a way th
 
 In my experience, it feels a lot better sitting back and making money from a product than it does impressing other engineers with the cool tech I used.
 
-## Hype tech always exists, you won’t miss out
+### Hype tech always exists, you won’t miss out
 
 I’ve only been in this industry for ~11 years and can tell you, the hype tech of the day will always be there. It happens over and over again. Some new thing is invented, people rush to use it, then it either slowly becomes the normal or dies off. I used to try out everything new thing because I was worried about falling behind. After burning myself enough times, I stopped. And guess what, everything has been fine.
 
@@ -38,14 +38,14 @@ This mistake happens so commonly. I bet you that hundreds of millions in VC $ ha
 
 If a new piece of tech truly is useful, it will stick around for years. It’s much easier to adopt something that has been around for a while than using something new. Let the early adopters weed out all the bugs.
 
-## When to use hype tech
+### When to use hype tech?
 
 I do think it’s smart to occasionally try new things out. Maybe once or twice a year you see something interesting. For example: when Cloudflare workers were released, I really wanted to learn them.
 I scoped a super tiny weekend project out and built it. From that, I learned their value and drawbacks. With that knowledge, I found a perfect use case for them doing “real work” and added them in as a small piece on a real app (that used boring technology).
 
 The result is having a stable core. With a sprinkle something fun and new that has shown value.
 
-## My boring stack
+### My boring stack
 Personally, this is what I default to because I've used it for years and know I can build almost anything with it.
 
 - Ruby on Rails
@@ -55,11 +55,11 @@ Personally, this is what I default to because I've used it for years and know I 
 - Database: [MySQL](https://planetscale.com)
 - Cache: memcached
 
-## Summary
+### Summary
 
 - Be clear on your goals
 - Business value is more important than technology
 - You won’t miss out, a new thing is always coming
 
-## More reading
+### More reading
 - [Boring Technology Club](http://boringtechnology.club/)
