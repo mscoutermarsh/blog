@@ -43,6 +43,15 @@ I scoped a super tiny weekend project out and built it. From that, I learned the
 
 The result is having a stable core. With a sprinkle something fun and new that has shown value.
 
+## My boring stack
+Personally, this is what I default to because I've used it for years and know I can build almost anything with it.
+
+- Ruby on Rails
+- UI: tailwind or bootstrap
+- JavaScript: as little as possible, or use web components
+- Servers: [Heroku](https://heroku.com)
+- Database: [MySQL](https://planetscale.com)
+- Cache: memcached
 
 ## Summary
 
