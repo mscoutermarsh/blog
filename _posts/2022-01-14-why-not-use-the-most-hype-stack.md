@@ -63,3 +63,5 @@ Personally, this is what I default to because I've used it for years and know I 
 
 ### More reading
 - [Boring Technology Club](http://boringtechnology.club/)
+
+Shout out to [@_cbdt](https://twitter.com/_cbdt) for the idea on this post.
