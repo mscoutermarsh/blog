@@ -10,7 +10,7 @@ Yes, I do. And I still love it.
 
 My setup also hasn't changed that much. I still use Vim + iTerm2 for almost all of my work. My [dotfiles are still public](https://github.com/mscoutermarsh/dotfiles) if you'd like to steal them.
 
-### What about vscode?
+#### What about vscode?
 
 I think vscode is great too. It has a [vim plugin](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) that you can enable. Then you get the benefits of keyboard navigation/editing while also keeping all the plugins you like about vscode.
 I occasionally use it when writing Go because I find the go plugins helpful.
