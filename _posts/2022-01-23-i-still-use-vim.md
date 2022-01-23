@@ -4,6 +4,8 @@ title: I still use vim
 date: 2022-01-23 18:30 -0500
 ---
 
+<iframe width="560" height="315" src="//www.youtube.com/embed/_NUO4JEtkDw?rel=0" frameborder="0" allowfullscreen></iframe>
+
 You probably saw [this video](https://www.youtube.com/watch?v=_NUO4JEtkDw) and are wondering: "After all this time, do you still use vim?".
 
 Yes, I do. And I still love it.
