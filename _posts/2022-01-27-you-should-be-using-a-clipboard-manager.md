@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Easy productivity hack: Use a clipboard manager'
+title: 'You should be using a clipboard manager'
 date: 2022-01-27 11:03 -0500
 ---
 If you don't have one already, install one and start using it. 
