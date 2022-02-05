@@ -12,8 +12,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate-v2', '~> 2.0.0'
   gem 'jekyll-compose'
   gem 'jekyll-assets', '~> 2.3.2'
-  gem 'jekyll-twitter-plugin'
-  gem 'jemoji'
 end
 
 gem 'uglifier'

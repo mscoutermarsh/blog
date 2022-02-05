@@ -30,18 +30,13 @@ disqus:
 markdown: kramdown
 plugins-dir:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-paginate-v2
-  - font_awesome
-  - jekyll-twitter-plugin
-  - jemoji
 
 emoji:
   src: "/assets/"
 
 sass:
   sass_dir: _assets/css/
-  style: compressed
 
 # Jekyll Assets
 # # - https://jekyll.github.io/jekyll-assets/
@@ -70,8 +65,8 @@ pagination:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - s3_website.yml
   - scripts/
+  - _site/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
