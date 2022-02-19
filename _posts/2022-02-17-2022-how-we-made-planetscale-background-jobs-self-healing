@@ -1,0 +1,10 @@
+---
+layout: post
+title: How we made PlanetScale's background jobs self-healing
+date: 2022-02-17 19:26 -0500
+external_site: other
+external_url: https://planetscale.com/blog/how-we-made-planetscale-background-jobs-self-healing-with-sidekiq
+---
+<!-- link[https://planetscale.com/blog/how-we-made-planetscale-background-jobs-self-healing-with-sidekiq] -->
+
+View this post on [PlanetScale](https://planetscale.com/blog/how-we-made-planetscale-background-jobs-self-healing-with-sidekiq).

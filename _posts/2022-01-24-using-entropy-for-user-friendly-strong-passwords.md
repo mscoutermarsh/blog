@@ -7,4 +7,4 @@ external_url: https://planetscale.com/blog/using-entropy-for-user-friendly-stron
 ---
 <!-- link[https://planetscale.com/blog/using-entropy-for-user-friendly-strong-passwords] -->
 
-View this post on [PlanetScale]()ttps://planetscale.com/blog/using-entropy-for-user-friendly-strong-passwords).
+View this post on [PlanetScale](https://planetscale.com/blog/using-entropy-for-user-friendly-strong-passwords).
