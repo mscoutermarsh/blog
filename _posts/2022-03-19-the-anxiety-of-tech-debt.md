@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How much does this tech debt matter?
+title: The anxiety of tech debt
 date: 2022-03-19 15:59 -0400
 ---
 
