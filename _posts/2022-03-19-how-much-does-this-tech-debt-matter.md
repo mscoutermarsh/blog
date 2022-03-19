@@ -8,9 +8,9 @@ No perfect code or system exists. Ask any engineer and they'll have a list of im
 
 This list of negatives can weigh on people. "We need to fix it eventually" or bad things will happen.
 
-Like any source of anxiety, the easiest way to disarm it is by asking why? What would really happen if it's never addressed? I find this to be clarifying.
+Like any source of anxiety, the easiest way to disarm it is **by asking why? What would really happen if it's never addressed?** I find this to be clarifying.
 
-The worst case for any system would be a total rewrite or refactor. It can help to ask yourself how long it would take to completely fix a piece of code. Is it a week? 6 months? What kind of customer impact would the rewrite have?
+The __worst case__ for any system would be a total rewrite or refactor. It can help to ask yourself how long it would take to completely fix a piece of code. Is it a week? 6 months? What kind of customer impact would the rewrite have?
 
 **Safe to ignore**
 
