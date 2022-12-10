@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Building a multi-region Rails application with PlanetScale
 external_site: other
 external_url: https://planetscale.com/blog/rails-multi-region-database
